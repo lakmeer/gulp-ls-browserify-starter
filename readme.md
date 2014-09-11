@@ -16,8 +16,3 @@ basically oxygen to me.
 - Check whether livereload process can be improved
 - Check whether any neat tricks exist to remove '.ls' from require calls
 
-
-# License
-
-GPL3 bitches, deal.
-
