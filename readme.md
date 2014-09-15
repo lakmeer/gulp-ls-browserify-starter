@@ -13,6 +13,4 @@ basically oxygen to me.
 - Improve error output
 - Comprehensive error handling... gulp-plumber?
 - Stylesheet compilation as well maybe
-- Check whether livereload process can be improved
-- Check whether any neat tricks exist to remove '.ls' from require calls
 

@@ -19,6 +19,18 @@ function handle (error) {
 }
 
 
+// Preconfigure bundler
+
+var bundler = browserify({
+  debug: true,
+  cache: {},
+  packageCache: {},
+  fullPaths: true,
+  entries: [ '.src/index.ls' ],
+  extensions: '.ls'
+});
+
+
 // Tasks
 
 gulp.task('server', function () {
@@ -29,7 +41,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('browserify', function () {
-  return browserify('./src/index.ls')
+  return bundler
     .bundle()
     .on('error', handle)
     .pipe(source('app.js'))
