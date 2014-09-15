@@ -1,5 +1,7 @@
 
 # Program index
 
-console.log "It's working!"
+require! \./include
+
+include.fn!
 
