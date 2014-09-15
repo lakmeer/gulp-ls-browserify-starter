@@ -11,8 +11,8 @@ running neatly in Livescript.
 
 ## Usage
 
-Grab, this repo, run `npm i` and start the server with
-`gulp` and start modifying the files to suit. The repo
+Grab, this repo, run `npm i`, start the server with
+`gulp` and start modifying the files to begin. The repo
 contains a tiny proof-of-concept program to build from.
 
 By default the `gulp` command will start the Connect
