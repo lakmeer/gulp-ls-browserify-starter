@@ -9,6 +9,14 @@ serve your files, and a browserify module system all
 running neatly in Livescript.
 
 
+## Changes
+
+- Switch transformer to `browserify-livescript` instead of `liveify`
+- Source maps now supported all the way back to LS source code
+- Update to Livescript 1.4
+- Much nicer error output
+
+
 ## Usage
 
 Grab, this repo, run `npm i`, start the server with
@@ -30,7 +38,5 @@ working with backups enabled. To stop it, set
 
 ## Todo
 
-- Comprehensive error handling... gulp-plumber?
-- Improve error formatting
-- Stylesheet compilation as well maybe
+- Stylesheet compilation as well maybe?
 
