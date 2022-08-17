@@ -19,7 +19,7 @@ running neatly in Livescript.
 
 ## Usage
 
-Grab, this repo, run `npm i`, start the server with
+Grab this repo, run `npm i`, start the server with
 `gulp` and start modifying the files to begin. The repo
 contains a tiny proof-of-concept program to build from.
 
